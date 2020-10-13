@@ -30,8 +30,9 @@ p6df::modules::p6awscdk::init() { }
 p6_awscdk_prompt_info() {
 
     local str
+
     if ! p6_string_blank "$CDK_DEPLOY_ACCOUNT"; then
-      str=$(p6_string_append "$str" "cdk:      deploy=[$CDK_DEPLOY_ACCOUNT/$CDK_DEPLOY_REGION]")
+      str="cdk:      deploy=[$CDK_DEPLOY_ACCOUNT/$CDK_DEPLOY_REGION]"
     fi
     if ! p6_string_blank "$CDK_DEFAULT_ACCOUNT"; then
       str=$(p6_string_append "$str" " default=[$CDK_DEFAULT_ACCOUNT/$CDK_DEFAULT_REGION]")
