@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6awscdk:
+
+#### p6awscdk/init.zsh:
 
 - p6_awscdk_prompt_info()
 - p6df::modules::p6awscdk::deps()
