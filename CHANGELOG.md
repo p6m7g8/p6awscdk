@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6awscdk/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+* **README:** updates generator ([#12](https://github.com/p6m7g8/p6awscdk/issues/12)) ([c6667f9](https://github.com/p6m7g8/p6awscdk/commit/c6667f94ec1bb2e4ac314830f41d5af9d2226c50))
+* Coc -> .github ([dcef604](https://github.com/p6m7g8/p6awscdk/commit/dcef604b5d8f1d94af3d46bce9aae85f17c64b01))
+
 ## [2.1.0](https://github.com/p6m7g8/p6awscdk/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
